@@ -7,19 +7,35 @@
     <link rel="stylesheet" href="styles.css">
 </head>
 <body>
+  <audio src="https://zetame.github.io/RockPaperScissor/rockpaperscissor.mp3" id="my_audio" loop="loop" ></audio>
+  <script type="text/javascript">
+    window.onload=function(){
+      document.getElementById("my_audio").play();
+    }
+  </script>
     <div>
     <h1>Rock Paper Scissor</h1>
     </div>
     <div class="row">
         <div class="column">
           <img id="player1" src="https://static.wixstatic.com/media/385411_220e7df6f9d147578d62cd894145a049~mv2.png/v1/fill/w_403,h_403,al_c,lg_1,q_90/385411_220e7df6f9d147578d62cd894145a049~mv2.webp" alt="centered" style="width:80%">
-          <button id="button1" onclick="Random1()">Player1 <br> Say Shoot!</button>
+        
+          
+          <button id="button1"  onclick="Random1();">Player1 <br> Say Shoot!</button>
+          <audio id="audio1" src="https://zetame.github.io/RockPaperScissor/rock.mp3" ></audio>
+          <audio id="audio2" src="https://zetame.github.io/RockPaperScissor/paper.mp3" ></audio>
+          <audio id="audio3" src="https://zetame.github.io/RockPaperScissor/scissor.mp3" ></audio>
         </div>
         <div class="column">
           <img id="player2" src="https://static.wixstatic.com/media/385411_220e7df6f9d147578d62cd894145a049~mv2.png/v1/fill/w_403,h_403,al_c,lg_1,q_90/385411_220e7df6f9d147578d62cd894145a049~mv2.webp" alt="centered" style="width:80%">
-          <button id="button2" onclick="Random2()">Player2 <br> Say Shoot!</button>
+          <button id="button2" onclick="Random2();">Player2 <br> Say Shoot!</button>
+          <audio id="audio1" src="https://zetame.github.io/RockPaperScissor/rock.mp3" ></audio>
+          <audio id="audio2" src="https://zetame.github.io/RockPaperScissor/paper.mp3" ></audio>
+          <audio id="audio3" src="https://zetame.github.io/RockPaperScissor/scissor.mp3" ></audio>
+         
         </div>
     </div>
     <script src="script.js"></script>
 </body>
 </html>
+
