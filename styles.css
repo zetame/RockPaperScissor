@@ -6,6 +6,17 @@ h1 {
     margin-right: 50px;
     border: 10px;
     border-radius: 25%;
+    
+        animation:blinking 1.5s infinite;
+        font-size: 100px;
+        }
+        @keyframes blinking{
+        0%{   color: rgb(220, 245, 163);   }
+        47%{   color: rgb(104, 12, 12); }
+        62%{   color: transparent; }
+        97%{   color:transparent; }
+        100%{  color: rgb(129, 14, 14);   }
+        
 }
 
 img {
