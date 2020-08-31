@@ -5,20 +5,25 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Rock Paper Scissor</title>
     <link rel="stylesheet" href="styles.css">
+    <style>
+      body {
+        background-image: url('https://www.motionstock.net/wp-content/uploads/2019/11/Matrix-Digital-Rain-1200x675.jpg');
+      }
+      </style>
 </head>
 <body>
-  <audio src="https://zetame.github.io/RockPaperScissor/rockpaperscissor.mp3" id="my_audio" loop="loop" ></audio>
-  <script type="text/javascript">
-    window.onload=function(){
-      document.getElementById("my_audio").play();
-    }
-  </script>
+  <audio controls autoplay style="display:none" id="audio0">
+    <source src="https://zetame.github.io/RockPaperScissor/rockpaperscissor.mp3" type="audio/mpeg" />
+  </audio>
+ <div class="button0"><button onclick="play0();"> <em>Let's Play!</em></button></div>
     <div>
     <h1>Rock Paper Scissor</h1>
     </div>
     <div class="row">
         <div class="column">
           <img id="player1" src="https://static.wixstatic.com/media/385411_220e7df6f9d147578d62cd894145a049~mv2.png/v1/fill/w_403,h_403,al_c,lg_1,q_90/385411_220e7df6f9d147578d62cd894145a049~mv2.webp" alt="centered" style="width:80%">
+        
+          
           <button id="button1"  onclick="Random1();">Player1 <br> Say Shoot!</button>
           <audio id="audio1" src="https://zetame.github.io/RockPaperScissor/rock.mp3" ></audio>
           <audio id="audio2" src="https://zetame.github.io/RockPaperScissor/paper.mp3" ></audio>

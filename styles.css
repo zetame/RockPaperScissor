@@ -4,6 +4,13 @@ h1 {
     font-size: 60px;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     margin-right: 50px;
+    border: 10px;
+    border-radius: 25%;
+}
+
+img {
+    border: 10px;
+    border-radius: 50%;
 }
 
 
@@ -15,6 +22,11 @@ h1 {
 #player2 {
     background-color: lightcoral;
 }
+
+#button0 {
+    display: flex;
+    justify-content: center;
+}
     
 #button1 {
     font-family: Verdana, Geneva, Tahoma, sans-serif;
@@ -25,8 +37,8 @@ h1 {
     margin: 50px 50px 50px 50px;
     color: rgb(52, 52, 236);
     align-self: center;
-    margin-left: 40px;
-    border-radius: 30%;
+    margin-left: 140px;
+    border-radius: 40%;
     box-shadow: 10px 10px;
 }
 
@@ -39,9 +51,15 @@ h1 {
     margin: 50px 50px 50px 50px;
     color: rgb(230, 51, 51);
     align-self: center;
-    margin-left: 60px;
-    border-radius: 30%;
+    margin-left: 180px;
+    border-radius: 40%;
     box-shadow: 10px 10px;
+}
+
+#audio0 {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 
