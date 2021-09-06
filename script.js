@@ -18,6 +18,21 @@ function play1() {
     audio.play();
   }
 
+  function play4() {
+    var audio = document.getElementById("audio4");
+    audio.play();
+  }
+
+  function play5() {
+    var audio = document.getElementById("audio5");
+    audio.play();
+  }
+
+  function play6() {
+    var audio = document.getElementById("audio6");
+    audio.play();
+  }
+
 function Random1 () {
     var myrandom=Math.round(Math.random()*2)
 
@@ -48,20 +63,20 @@ function Random2 () {
     if (myrandom==0)    { 
         var pic = "https://www.clker.com/cliparts/p/G/a/s/t/g/rock-md.png"
         document.getElementById('player2').src = pic.replace('50x50', '225x90')
-        play1();
+        play4();
         document.getElementById("button2").innerHTML="ROCK";
         
         }
     else if (myrandom==1)
        { var pic = "https://www.vhv.rs/dpng/d/490-4906131_rock-paper-scissors-clipart-rock-paper-scissors-png.png"
        document.getElementById('player2').src = pic.replace('50x50', '225x90')
-       play2();
+       play5();
        document.getElementById("button2").innerHTML="PAPER";
         }
     else if (myrandom==2)
        { var pic = "https://www.kindpng.com/picc/m/502-5025794_rock-paper-scissors-clipart-hd-png-download.png"
        document.getElementById('player2').src = pic.replace('50x50', '225x90')
-       play3();
+       play6();
        document.getElementById("button2").innerHTML="SCISSOR";
         }
     

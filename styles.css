@@ -1,93 +1,87 @@
-h1 {
-    background-color: beige;
-    text-align: center;
-    font-size: 60px;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
-    margin-right: 50px;
-    border: 10px;
-    border-radius: 25%;
+h2 {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: whitesmoke;
+    position: relative;
     
-        animation:blinking 1.5s infinite;
-        font-size: 100px;
-        }
-        @keyframes blinking{
-        0%{   color: rgb(220, 245, 163);   }
-        47%{   color: rgb(104, 12, 12); }
-        62%{   color: transparent; }
-        97%{   color:transparent; }
-        100%{  color: rgb(129, 14, 14);   }
-        
+   margin: auto;
+   width: 50%;
+   border: 2px green;
+   padding: 10px;
+    
+
 }
 
 img {
-    border: 10px;
+    position: relative;
+    margin: 10px;
+    border: inset 2px;
     border-radius: 50%;
+    border-color: rgb(6, 153, 153);
+    display: flex;
+    max-width: 250px;
+    max-height: 250px;
+    height: auto;
+    margin-left: 20%;
 }
 
 
 #player1 {
-    background-color: aquamarine;
+    background-color: rgb(15, 185, 129);
     
 }
 
 #player2 {
-    background-color: lightcoral;
+    background-color: rgb(165, 87, 87);
 }
 
-#button0 {
-    display: flex;
-    justify-content: center;
-}
     
 #button1 {
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
-    font-size:30px;
-    size: 50px;
-    background-color: red;
-    padding: 50px 100px 50px 100px;
-    margin: 50px 50px 50px 50px;
-    color: rgb(52, 52, 236);
-    align-self: center;
-    margin-left: 140px;
-    border-radius: 40%;
-    box-shadow: 10px 10px;
+   position: relative;
+   font-family: fantasy;
+   background-color: gold;
+   max-width: 100px;
+   max-height: 50px;
+   font-size: 20px;
+   
+   height: auto;
+   width: auto;
+   margin: 5px;
+   margin-left: 40%;
+   box-shadow: 3px 4px 0px 0px #484901;
+   background:linear-gradient(to bottom, #edf0dc 10%, #d6ec0a 100%);
+   
+   border: outset 2px;
+   border-radius: 25%;
+   border-color: pink;
+
+   line-height: 50px;
+   text-align: center
 }
 
 #button2 {
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
-    font-size:30px;
-    size: 50px;
-    background-color: blue;
-    padding: 50px 100px 50px 100px;
-    margin: 50px 50px 50px 50px;
-    color: rgb(230, 51, 51);
-    align-self: center;
-    margin-left: 180px;
-    border-radius: 40%;
-    box-shadow: 10px 10px;
-}
-
-#audio0 {
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-}
-
-
-
-* {
-    box-sizing: border-box;
-  }
-  
-  .row {
-    display: flex;
+    position: relative;
+    font-family: fantasy;
+    background-color: gold;
+    max-width: 100px;
+    max-height: 50px;
+    font-size: 20px;
     
-  }
-  
-  .column {
-    flex: 50%;
-    padding: 5px;
-  }
-
-
+    height: auto;
+    width: auto;
+    margin: 5px;
+    margin-left: 40%;
+    box-shadow: 3px 4px 0px 0px #636360;
+    background:linear-gradient(to bottom, #edf0dc 10%, #ec700a 100%);
+    
+    border: outset 2px;
+    border-radius: 25%;
+    border-color: pink;
  
+    line-height: 50px;
+    text-align: center
+}
+
+body {
+    background-color: black;
+}
+
