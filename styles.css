@@ -21,7 +21,7 @@ img {
     margin: 5px;
     border: double 2px;
     border-radius: 50%;
-    border-color: rgb(6, 153, 153);
+    border-color: rgb(236, 207, 40);
     
     width: 230px;
     height: 230px;
@@ -51,12 +51,12 @@ img {
    width: 95px;
    margin: 5px;
    margin-left: 40%;
-   box-shadow: 3px 4px 0px 0px #484901;
+   box-shadow: 3px 4px 0px 0px #252525;
    background:linear-gradient(to bottom, #edf0dc 10%, #d6ec0a 100%);
    
    border: outset 2px;
    border-radius: 25%;
-   border-color: pink;
+   border-color: rgb(15, 15, 15);
 
    line-height: 50px;
    text-align: center
@@ -86,12 +86,12 @@ img {
     width: 95px;
     margin: 5px;
     margin-left: 40%;
-    box-shadow: 3px 4px 0px 0px #636360;
+    box-shadow: 3px 4px 0px 0px #252525;
     background:linear-gradient(to bottom, #edf0dc 10%, #ec700a 100%);
     
     border: outset 2px;
     border-radius: 25%;
-    border-color: pink;
+    border-color: rgb(14, 13, 13);
  
     line-height: 50px;
     text-align: center
@@ -114,8 +114,13 @@ img {
     font-family: 'Times New Roman', Times, serif;
     width: 50px;
     height: 20px;
+    border: solid rgb(91, 197, 247) 1px ;
     border-radius: 30%;
     
+}
+
+#button3:hover {
+    color: red;
 }
 
 body {
