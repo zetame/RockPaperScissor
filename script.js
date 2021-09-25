@@ -38,19 +38,19 @@ function Random1 () {
 
     if (myrandom==0)    { 
         
-        document.getElementById('player1').src = "rock.png";
+        document.getElementById('player1').src = "rockx.jpg";
         play1();
         document.getElementById("button1").innerHTML="ROCK";
         }
     else if (myrandom==1)   { 
        
-       document.getElementById('player1').src = "paper.png";
+       document.getElementById('player1').src = "paperx.jpg";
        play2();
        document.getElementById("button1").innerHTML="PAPER";
        }
     else if (myrandom==2)    { 
       
-       document.getElementById('player1').src = "scissor.png";
+       document.getElementById('player1').src = "scissorx.jpg";
        play3();
        document.getElementById("button1").innerHTML="SCISSOR";
         }
@@ -62,18 +62,18 @@ function Random2 () {
 
     if (myrandom==0)    { 
         
-        document.getElementById('player2').src = "rock.png";
+        document.getElementById('player2').src = "rockx.jpg";
         play4();
         document.getElementById("button2").innerHTML="ROCK";
         
         }
     else if (myrandom==1)   { 
-       document.getElementById('player2').src = "paper.png";
+       document.getElementById('player2').src = "paperx.jpg";
        play5();
        document.getElementById("button2").innerHTML="PAPER";
         }
     else if (myrandom==2)   { 
-       document.getElementById('player2').src = "scissor.png";
+       document.getElementById('player2').src = "scissorx.jpg";
        play6();
        document.getElementById("button2").innerHTML="SCISSOR";
         }
